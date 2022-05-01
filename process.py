@@ -1,8 +1,10 @@
 import numpy as np
 import time
 
-infile = 'example/example.txt'
-outfile = infile.replace('.txt','.npy')
+#infile = 'example/example.txt'
+#outfile = infile.replace('.txt','.npy')
+infile = 'out/6160-268435456.txt'
+outfile = 'out/11-14-cropped.npy'
 
 print('loading')
 start = time.time()
